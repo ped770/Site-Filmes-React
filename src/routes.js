@@ -13,6 +13,7 @@ function RoutesApp(){
             <Header/>
             <Routes>
                 <Route path='/' element = { <Home/> }/>
+                <Route path='/docs' element = { <Home/> }/>
                 <Route path='/filme/:id' element = { <Filme/> }/>
                 <Route path='/favoritos' element = { <Favoritos/> }/>
 
