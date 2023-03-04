@@ -60,3 +60,14 @@
 .meus-filmes h3{
     margin-top: 10em;
 }
+
+@media screen and (max-width: 450px) {
+    .meus-filmes ul{
+        margin-top: 17px;
+        width: 375px;
+    }
+
+    .meus-filmes span{
+        font-size: 16px;
+    }
+}
