@@ -12,7 +12,8 @@ function RoutesApp(){
         <BrowserRouter>
             <Header/>
             <Routes>
-                <Route path='/' element = { <Home/> }/>
+                <Route path='/' element = { <Home/> }/> 
+                <Route path='/Site-Filmes-React' element = { <Home/> }/>
                 <Route path='/filme/:id' element = { <Filme/> }/>
                 <Route path='/favoritos' element = { <Favoritos/> }/>
 
