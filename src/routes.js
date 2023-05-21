@@ -14,8 +14,8 @@ function RoutesApp(){
             <Routes>
                 <Route path='/' element = { <Home/> }/> 
                 <Route path='/Site-Filmes-React' element = { <Home/> }/>
-                <Route path='/filme/:id' element = { <Filme/> }/>
-                <Route path='/favoritos' element = { <Favoritos/> }/>
+                <Route path='/Site-Filmes-React/filme/:id' element = { <Filme/> }/>
+                <Route path='/Site-Filmes-React/favoritos' element = { <Favoritos/> }/>
 
                 <Route path='*' element = { <Erro/> }/>
             </Routes>
