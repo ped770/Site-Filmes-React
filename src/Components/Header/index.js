@@ -4,8 +4,8 @@ import './style.css'
 function Header(){
     return(
         <header>
-            <Link to={"/"} className="logo">App Filmes</Link>
-            <Link to={"/favoritos"} className="fav">Favoritos</Link>
+            <Link to={"/Site-Filmes-React"} className="logo">App Filmes</Link>
+            <Link to={"/Site-Filmes-React/favoritos"} className="fav">Favoritos</Link>
         </header>
     );
 }

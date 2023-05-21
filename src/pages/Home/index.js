@@ -46,7 +46,7 @@ function Home(){
                         <article key={filme.id}>
                             <strong>{filme.title}</strong>
                             <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title}/>
-                            <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                            <Link to={`/Site-Filmes-React/filme/${filme.id}`}>Acessar</Link>
                         </article>
                     )
                 })}
